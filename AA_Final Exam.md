@@ -1802,7 +1802,7 @@ plt.show()
 
 
     
-![png](AA_Final%20Exam_files/AA_Final%20Exam_49_0.png)
+![png](AA_Final%20Exam_49_0.png)
     
 
 
@@ -1844,7 +1844,7 @@ plt.show()
 
 
     
-![png](AA_Final%20Exam_files/AA_Final%20Exam_51_0.png)
+![png](AA_Final%20Exam_51_0.png)
     
 
 
@@ -1867,7 +1867,7 @@ plt.show()
 
 
     
-![png](AA_Final%20Exam_files/AA_Final%20Exam_52_0.png)
+![png](AA_Final%20Exam_52_0.png)
     
 
 
