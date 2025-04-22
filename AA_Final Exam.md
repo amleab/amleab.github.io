@@ -1,6 +1,6 @@
 # Examining the Impact of Pell Grant Distribution on Graduation Rates: A Comparative Study of HBCUs and Non-HBCUs
 
-# Abstract
+## **Abstract**
 
 This study investigates the association between institutional characteristics—namely
 control (public vs. private), level (2-year vs. 4-year), and HBCU (Historically Black
@@ -35,7 +35,7 @@ Using national postsecondary data from IPEDS, this paper investigates how gradua
 ## **Research Questions**
 1. What is the relationship between the proportion of students receiving Pell Grants and graduation rates within 150% of normal program time, and how does this relationship differ across two-year and four-year institutions?
 
-2. In what ways do patterns of Pell Grant distribution relate to graduation outcomes at Historically Black Colleges and Universities (HBCUs) versus Predominantly White Institutions (PWIs), particularly in the context of racial equity in higher education?
+2. In what ways do patterns of Pell Grant distribution relate to graduation outcomes at Historically Black Colleges and Universities (HBCUs) versus Non-HBCU?
 
 
 ## **Problem Statement**
