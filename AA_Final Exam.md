@@ -29,7 +29,7 @@ Extensive research has documented the positive effects of Pell Grants on **colle
 
 This study explores the connection between institutional characteristics and Pell recipient graduation rates, with a particular emphasis on **Historically Black Colleges and Universities (HBCUs)**. HBCUs serve a disproportionately high number of Pell-eligible students and have historically played a vital role in advancing educational equity and social mobility. Yet, these institutions continue to face chronic underfunding, resource inequities, and structural constraints that may affect student outcomes (Gasman et al., 2010; Nichols & Evans-Bell, 2017).
 
-Using national postsecondary data, this paper investigates how graduation rates within 150% of normal program time among Pell recipients vary across institutional contexts. Specifically, it examines the roles of **HBCU status**, **institutional control** (public vs. private), and **institutional level** (2-year vs. 4-year) in shaping these outcomes. By integrating these structural factors, this research aims to provide a more nuanced understanding of how financial aid policy interacts with institutional environments—offering implications for the design and targeting of support mechanisms intended to close equity gaps in higher education.
+Using national postsecondary data from IPEDS, this paper investigates how graduation rates within 150% of normal program time among Pell recipients vary across institutional contexts. Specifically, it examines the roles of **HBCU status**, **institutional control** (public vs. private), and **institutional level** (2-year vs. 4-year) in shaping these outcomes. By integrating these structural factors, this research aims to provide a more nuanced understanding of how financial aid policy interacts with institutional environments—offering implications for the design and targeting of support mechanisms intended to close equity gaps in higher education.
 
 
 ## **Research Questions**
@@ -1648,7 +1648,7 @@ Following preprocessing, the dataset was reduced from its original size to 5,736
 This section uses a combination of visualizations and descriptive statistics to explore patterns in the dataset. Bar plots were used to compare average graduation rates across institutional categories (e.g., control type, HBCU status, institution level). Box plots provided additional insight into the distribution and variability of graduation outcomes. A correlation matrix was generated to assess linear relationships between continuous variables, including Pell Grant recipient rates and graduation rates. Furthermore, `groupby()` with `.mean()` was applied to calculate average graduation outcomes within each institutional subgroup, helping to uncover trends relevant to the study's research questions.
 
 
-## **Correlation Matrix**
+### **Correlation Matrix**
 
 
 ```python
@@ -1893,17 +1893,6 @@ A box plot comparing graduation rates across institution types and HBCU status o
 
 > **Interpretation**: This distributional compression among HBCUs may reflect a systemic cap imposed by resource limitations. The broader range seen in non-HBCU institutions—particularly private ones—may point to differentiated institutional strategies or capacities to support Pell recipients.
 
-## Synthesis and Policy Implications
-
-Collectively, these findings demonstrate that:
-
-1. **Institutional control and level are significant predictors of Pell Grant recipient graduation rates**, with private not-for-profit institutions consistently yielding better outcomes.
-2. **HBCU designation is associated with lower graduation rates**, even after controlling for structural characteristics, highlighting persistent inequities.
-3. The intersection of financial aid, institutional characteristics, and racialized institutional identity underscores the **need for targeted, equity-focused policy interventions**.
-
-These insights contribute to ongoing scholarship in the fields of **higher education policy, educational equity, and socioeconomic mobility**, and should inform both funding decisions and institutional practices aimed at improving graduation outcomes for low-income and historically marginalized student populations.
-
-
 ## Linear Regression Analysis of Institutional Factors Affecting Pell Grant Graduation Rates
 
 
@@ -2015,15 +2004,20 @@ The regression results you provided show the relationship between the variables 
 
 ---
 
-### Conclusion:
-- **HBCU** is associated with a significant negative impact on Pell Grant graduation rates, indicating that students at HBCUs, on average, have lower graduation rates compared to students at non-HBCUs.
-- **CONTROL** (institution type) has a positive effect on graduation rates, with private not-for-profit institutions outperforming public institutions.
-- **IC_LEVEL** indicates that students at 4-year institutions have a higher graduation rate than those at 2-year institutions.
+### **Key Quantitative Findings**
 
-All independent variables are statistically significant with very small p-values, confirming their impact on the dependent variable, `pell_grad_rate`.
+The regression analysis reveals that institutional characteristics significantly influence graduation outcomes for Pell Grant recipients:
+
+- **HBCU status** is strongly and negatively associated with graduation rates, suggesting that students at Historically Black Colleges and Universities face persistent structural barriers that impact their academic success.
+- **Institutional control** shows a positive effect, with **private not-for-profit institutions** consistently achieving higher graduation rates than public institutions.
+- **Institutional level** also matters—**4-year institutions** outperform 2-year colleges in supporting Pell recipients through to graduation.
+
+All independent variables are statistically significant with very small p-values, confirming the strength and reliability of these relationships.
+
+These findings reinforce broader themes in the literature on **higher education policy, equity, and socioeconomic mobility**, and highlight the need for targeted interventions that address the structural disparities shaping outcomes for low-income and historically marginalized students.
 
 
-## **Synthesis, Policy Implications, and Conclusion**
+## **Synthesis and Policy Implications**
 
 The findings from this analysis reveal critical insights into the structural factors influencing graduation outcomes among Pell Grant recipients in U.S. higher education. Specifically:
 
@@ -2033,17 +2027,10 @@ The findings from this analysis reveal critical insights into the structural fac
 
 3. The intersection of financial aid, institutional type, and racialized institutional identity underscores the **urgent need for equity-centered policy reforms**. Addressing these disparities requires a multifaceted approach that not only expands access to aid but also ensures that institutional environments are resourced and structured to foster equitable outcomes.
 
-### **Conclusion**
+## **Conclusion**
 
-The regression analysis confirms that:
+This study provides robust evidence that institutional characteristics play a critical role in shaping the graduation outcomes of Pell Grant recipients, reinforcing the urgent need for equity-focused reforms in U.S. higher education. The regression analysis confirms that **HBCU status is significantly and negatively associated** with graduation rates, even after accounting for structural differences—highlighting the persistent impact of systemic underinvestment and racialized institutional barriers. In contrast, **institutional control and level** emerged as positive predictors of student success: **private not-for-profit institutions** and **4-year colleges** consistently demonstrated higher graduation rates compared to public and 2-year institutions, respectively. These findings underscore how the intersection of financial aid, institutional type, and historical context contributes to disparate outcomes for low-income and historically marginalized students. All variables were found to be statistically significant, affirming the strength of these associations. Collectively, the results inform ongoing scholarship in **higher education policy, educational equity, and socioeconomic mobility**, and should directly guide policy development, funding decisions, and institutional practices aimed at advancing equitable student success across all sectors of postsecondary education.
 
-- **HBCU status** is significantly and negatively associated with Pell Grant recipient graduation rates, indicating systemic challenges that continue to hinder student success in these institutions.
-- **Institutional control (CONTROL)** exerts a positive influence on outcomes, with private not-for-profit institutions outperforming public ones in terms of Pell recipient graduation rates.
-- **Institutional level (IC_LEVEL)** also plays a meaningful role, with students at 4-year institutions more likely to complete their programs than those at 2-year colleges.
-
-All independent variables were found to be statistically significant, reinforcing the robustness of these relationships.
-
-These insights contribute meaningfully to the broader literature on **higher education policy, educational equity, and socioeconomic mobility**, and should guide both policy development and institutional strategies aimed at improving postsecondary outcomes for Pell Grant recipients and other historically marginalized student populations.
 
 
 ## **Next Steps**
@@ -2064,12 +2051,8 @@ Building upon the current findings, several avenues for future research and anal
 
 5. **Predictive Modeling and Machine Learning**:  
    Explore supervised learning techniques (e.g., decision trees, random forests) to predict Pell recipient graduation likelihood based on institutional and financial aid variables. This could inform targeted interventions.
-
-> **Conclusion**:  
+  
 These future steps aim to deepen understanding of how financial aid interacts with institutional characteristics to shape student success. They also provide a pathway for transitioning from descriptive insights to actionable strategies that promote educational equity.
 
 
 
-```python
-
-```
