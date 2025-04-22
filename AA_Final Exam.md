@@ -5,9 +5,7 @@
 This study investigates the association between institutional characteristics—namely
 control (public vs. private), level (2-year vs. 4-year), and HBCU (Historically Black
 Colleges and Universities) status—and graduation rates among Pell Grant recipients
-in the United States. Leveraging institution-level data, we conducted multiple linear
-regression analyses to quantify the relationship between these factors and the 
-graduation outcomes of Pell-eligible students.
+in the United States. Multiple linear regression analyses were conducted using institution-level data to quantify the relationship between these factors and the graduation outcomes of Pell-eligible students
 
 The results indicate that HBCU status is significantly associated with lower graduation 
 rates for Pell recipients (β = -0.147, p < 0.001), suggesting a 14.7 percentage point 
