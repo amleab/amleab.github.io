@@ -1680,7 +1680,7 @@ plt.show()
 
 
     
-![png](AA_Final%20Exam_files/AA_Final%20Exam_43_0.png)
+![png](AA_Final%20Exam_43_0.png)
     
 
 
