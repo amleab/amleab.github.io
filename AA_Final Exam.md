@@ -2004,7 +2004,7 @@ The regression results you provided show the relationship between the variables 
 
 ---
 
-### **Key Quantitative Findings**
+### **Empirical Insights from Regression Analysis**
 
 The regression analysis reveals that institutional characteristics significantly influence graduation outcomes for Pell Grant recipients:
 
