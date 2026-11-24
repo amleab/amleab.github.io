@@ -1,5 +1,4 @@
-# Week11_Exercises.py
-
+# California Housing
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
