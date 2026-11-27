@@ -3,12 +3,8 @@ layout: default
 title: Resume
 ---
 
-# Amleset Abrhale
 
-[Home](/) | [amleset.abrhale1@bison.howard.edu](mailto:amleset.abrhale1@bison.howard.edu) | [LinkedIn](https://www.linkedin.com/in/amleset-abrhale-46b395452/) | [GitHub](https://github.com/amleab)
-
-[Download PDF](Amleset_Abrhale_Resume.pdf)
-
+[Home](/) · [amleset.abrhale1@bison.howard.edu](mailto:amleset.abrhale1@bison.howard.edu) · [LinkedIn](https://www.linkedin.com/in/amleset-abrhale-46b395452/) · [GitHub](https://github.com/amleab) · [Download PDF](Amleset_Abrhale_Resume.pdf)
 ## Summary
 
 Institutional research professional with over 15 years of experience in higher education data, statistical analysis, and federal reporting (IPEDS, NIH-NSF, NCES), turning complex data into insights for executive leadership using SQL, Python, R, Tableau, and Power BI. Master's student in Applied Data Science and Analytics at Howard University, focused on equity research and data storytelling.
